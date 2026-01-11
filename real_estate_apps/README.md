@@ -3,6 +3,7 @@
 An experimental MVP built solo, for one goal — help people make smarter real estate decisions in Canada. No big teams. No traditional code. Just a working tool, made with curiosity, fast iteration, and a clear plan.
 
 🔍 What It Does
+
 This tool takes a **property address** and brings together all the info you would normally have to collect from 5 different tabs:
 
 - Recent sold listings nearby
@@ -12,6 +13,13 @@ This tool takes a **property address** and brings together all the info you woul
 - Closest grocery stores
 - Auto-written offer justification email using OpenAI
 
+Even with apps like HouseSigma showing sold prices, buyers and realtors still ask:
+
+- *Why* is this home priced this way?
+- Is there a **top-rated school** nearby?
+- How far is the **TTC or GO station**?
+- Is there a **grocery store** within reach?
+- Can I send a **quick, smart offer** without writing from scratch?
 All shown in one clean, simple view.
 
 🧱 How It’s Built (Architecture)
