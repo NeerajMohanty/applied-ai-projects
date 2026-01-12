@@ -125,73 +125,6 @@ flowchart TB
 | **Payments** | Stripe (planned) |
 | **Build** | Vite, TypeScript, Biome (linting) |
 
----
-
-## 🚀 Getting Started
-
-### Prerequisites
-
-- **Node.js** 18+ 
-- **npm** 9+
-- **Supabase** account (for database and auth)
-- **AWS S3** bucket (Canada region recommended)
-- **Cohere API** key
-
-### Installation
-
-1. **Clone the repository**
-   ```bash
-   git clone https://github.com/NeerajMohanty/applied-ai-projects.git
-   cd applied-ai-projects/simplterms
-   ```
-
-2. **Install dependencies**
-   ```bash
-   npm install
-   ```
-
-3. **Configure environment variables**
-   
-   Create a `.env` file based on `.env.example`:
-   ```env
-   # Database
-   DATABASE_URL=postgresql://...
-   SUPABASE_URL=https://your-project.supabase.co
-   SUPABASE_SERVICE_ROLE_KEY=your-service-role-key
-
-   # AWS S3
-   AWS_ACCESS_KEY_ID=your-access-key
-   AWS_SECRET_ACCESS_KEY=your-secret-key
-   AWS_REGION=ca-central-1
-   S3_BUCKET_NAME=your-bucket-name
-
-   # AI Services
-   COHERE_API_KEY=your-cohere-api-key
-
-   # Authentication
-   JWT_SECRET=your-jwt-secret
-   GOOGLE_CLIENT_ID=your-google-client-id
-   GOOGLE_CLIENT_SECRET=your-google-client-secret
-
-   # Server
-   PORT=3001
-   NODE_ENV=development
-   ```
-
-4. **Run database migrations**
-   ```bash
-   npm run db:migrate
-   ```
-
-5. **Start the development server**
-   ```bash
-   npm run dev
-   ```
-
-The application will be available at `http://localhost:5173`
-
----
-
 ## 📖 Usage
 
 ### 1. Upload Documents
@@ -300,21 +233,9 @@ npm run db:generate  # Generate types from schema
 - [x] **Phase 3**: AI search and semantic retrieval
 - [x] **Phase 4**: Compliance detection engine
 - [x] **Phase 5**: Admin dashboard
-- [ ] **Phase 6**: Billing & subscriptions (Stripe)
-- [ ] **Phase 7**: E2E testing & QA
-- [ ] **Phase 8**: Pilot launch & onboarding
-
----
-
-## 🤝 Contributing
-
-Contributions are welcome! Please read our contributing guidelines and submit pull requests to the `develop` branch.
-
----
-
-## 📄 License
-
-This project is proprietary software. All rights reserved.
+- [x] **Phase 6**: Billing & subscriptions (Stripe)
+- [x] **Phase 7**: E2E testing & QA
+- [x] **Phase 8**: Pilot launch & onboarding
 
 ---
 
