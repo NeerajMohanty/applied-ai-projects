@@ -1,15 +1,15 @@
 # Applied AI Projects
 
-A collection of small AI tools built around clear problems and practical use cases.
+A collection of small AI tools built around specific problems and practical use cases.
 
-Each project is kept focused in scope, with simple architecture and working outputs.
+Each project is kept narrow in scope, with simple architecture and working outputs.
 
 ## Projects
 
 ### SimplTerms. Contract Assistant
 Tool that reads contracts and explains complex legal language in plain English.
 
-Built for document review workflows where clarity, speed, and careful handling of sensitive content matter.
+Built for document review workflows where clarity and careful handling of sensitive content matter.
 
 **Stack:** Python, OpenAI API
 
